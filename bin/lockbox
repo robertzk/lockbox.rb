@@ -8,6 +8,6 @@ rescue LoadError => e
   exit -1
 end
 
-Lockbox::CLI.start
+Lockbox::CLI.start ARGV
 
     
