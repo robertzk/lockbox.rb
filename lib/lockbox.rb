@@ -1,3 +1,4 @@
+require "lockbox/cli"
 require "lockbox/version"
 
 module Lockbox

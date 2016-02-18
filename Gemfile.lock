@@ -3,6 +3,7 @@ PATH
   specs:
     lockbox (0.0.1)
       activesupport
+      thor
 
 GEM
   remote: https://rubygems.org/

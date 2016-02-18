@@ -15,6 +15,9 @@ Gem::Specification.new do |gem|
   gem.require_paths         = ["lib"]
   gem.version               = Lockbox::VERSION
 
+  gem.executables << "lockbox"
+
+  gem.add_dependency("thor")
   gem.add_dependency("activesupport")
 end
 
